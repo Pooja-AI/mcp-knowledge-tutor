@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const RECIPES = [
+const MCP = [
   {
     id: "mcp-server-basic",
     category: "Foundations",

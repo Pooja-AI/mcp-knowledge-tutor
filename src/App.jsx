@@ -1,5 +1,5 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
-import RECIPES from "./pages/MCPCookbook";
+import MCP from "./pages/MCPCookBook";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -7,10 +7,11 @@ function App() {
     <HashRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<RECIPES />} />
+        <Route path="/" element={<MCP/>} />
       </Routes>
     </HashRouter>
   );
 }
+
 
 export default App;
